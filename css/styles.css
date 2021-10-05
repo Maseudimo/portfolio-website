@@ -16,21 +16,16 @@
 body {
   background-color: var(--background-color);
   color: var(--primary-color);
-  */
-  font-weight: 400;
-  font-size: var(--normal-fontsize);
-
-  /* sets font size to 16px */
-  line-height: 1.6
-
-  /* sets line height to 1.6 */
+  font-family: 'poppins', sans-serif;
+  font-weight: var(--header-font-weight);
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 h1 {
-  font-style: italic;
   font-size: 30px;
   font-weight: var(--header-font-weight);
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 h2 {
@@ -41,6 +36,7 @@ h2 {
 h3 {
   font-size: 18px;
   font-weight: var(--header-font-weight);
+  text-decoration: underline;
 }
 
 a {
@@ -77,9 +73,8 @@ a:active {
 .page-footer {
   clear: both;
   display: flex;
-  flex-direction: column;
-  text-align: center;
   flex-direction: column-reverse;
+  text-align: center;
 }
 
 .profile {
@@ -236,8 +231,6 @@ h1 {
   margin: 0 auto;
   max-width: 60%;
 }
-
-
 
 /* start of animation */
 
