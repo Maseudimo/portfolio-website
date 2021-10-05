@@ -63,9 +63,8 @@ a:active {
 .page-footer {
   clear: both;
   display: flex;
-  flex-direction: column;
-  text-align: center;
   flex-direction: column-reverse;
+  text-align: center;
 }
 
 .profile {
