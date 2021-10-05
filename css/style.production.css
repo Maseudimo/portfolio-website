@@ -246,6 +246,12 @@ h1 {
   max-width: 60%;
 }
 
+.adress-info {
+  margin: 0 auto;
+  max-width: 60%;
+  text-align: center;
+}
+
 /* start of animation */
 helsinki-svg {
   position: fixed;
