@@ -69,7 +69,8 @@ a:active {
 
 .profile {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 50px;
+  display: inline-grid;
 }
 
 .page-header {
