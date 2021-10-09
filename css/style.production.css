@@ -467,10 +467,10 @@ g.flipped {
 }
 
 .cabin {
-  -moz-transform-origin: 50% 50% 0 50%;
-  -ms-transform-origin: 50% 50% 0 50%;
-  -webkit-transform-origin: 50% 50% 0 50%;
-  transform-origin: 50% 50% 0 50%;
+  -moz-transform-origin: 50% 50% 0;
+  -ms-transform-origin: 50% 50% 0;
+  -webkit-transform-origin: 50% 50% 0;
+  transform-origin: 50% 50% 0;
   -moz-animation: 0, 30s, cabin-rotation, linear, infinite;
   -webkit-animation: 0, 30s, cabin-rotation, linear, infinite;
   animation: 0, 30s, cabin-rotation, linear, infinite;
@@ -517,10 +517,10 @@ g.flipped {
 }
 
 .wheel-r {
-  -moz-transform-origin: 50% 50% 0 50%;
-  -ms-transform-origin: 50% 50% 0 50%;
-  -webkit-transform-origin: 50% 50% 0 50%;
-  transform-origin: 50% 50% 0 50%;
+  -moz-transform-origin: 50% 50% 0;
+  -ms-transform-origin: 50% 50% 0;
+  -webkit-transform-origin: 50% 50% 0;
+  transform-origin: 50% 50% 0;
   -moz-animation: 0, 30s, wheel-rotation, linear, infinite;
   -webkit-animation: 0, 30s, wheel-rotation, linear, infinite;
   animation: 0, 30s, wheel-rotation, linear, infinite;
